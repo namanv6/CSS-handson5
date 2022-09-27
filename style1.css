@@ -1,0 +1,86 @@
+body{
+    background-color: yellow;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+/* box */
+.a{
+    background-color: green;
+    height: 50px;
+    width: 60px;
+    padding: 15px;
+    margin: 5px;
+}
+
+.box{
+    transition: 3s;
+}
+
+.box:hover{
+    width: 300px;
+}
+
+/* box1 */
+
+.box1{
+    transition: 3s;
+}
+
+.box1:hover{
+    height: 300px;
+    width:300px;
+}
+
+
+.box2{
+    transition: 3s linear;
+}
+
+.box2:hover{
+    width: 300px;
+}
+
+.box3{
+    transition: 3s ease;
+}
+
+.box3:hover{
+    width: 300px;
+}
+
+.box4{
+    transition: 3s ease-in;
+}
+
+.box4:hover{
+    width: 300px;
+}
+
+.box5{
+    transition: 3s ease-out;
+}
+
+.box5:hover{
+    width: 300px;
+}
+
+.box6{
+    transition: 3s ease-in-out;
+}
+
+.box6:hover{
+    width: 300px;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    left: 30px;
+}
